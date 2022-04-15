@@ -53,87 +53,38 @@
 .contacto::after{
  content:"♥"
 }
+/*titulos fotos index*/
 
-
-/* titulo fotos index */
-.padrefotosindex a{
+.fotos_index a{
 text-decoration-line: none;
-color: #b0f7cc;
-font-size: 20px;
 }
-.padrefotosindex{
-    font-size: 20px;
-}
-
-.titulovasosindex {
-    display: flex;
-    color: #b0f7cc;
-    margin-left: 50px;
-    bottom: 100px;
-}
-
-
-
-.tituloorganizadoresindex {
-    display: flex;
-    color:#b0f7cc;
-    margin-left: 400px;
-    bottom: 100px;
-}
-
-
-
-.titulocoleindex {
-    display: flex;
-    color:#b0f7cc;
-    margin-left:1000px;
-    bottom:100px;
-    
-}
-
-/*animaciones fotos menu*/
-
-.padrefotosindex{
-    margin-left: 100px;
-}
-
-
-
-.fotovasosmenu{
-height: 200px;
-}
-
-.fotovasosmenu:hover{
-    height:300px;
-    transition: height 2s;
-}
-
-
-.fotoorgmenu{
+.titulovasosindex{
     position: relative;
-    height:200px;
-    left:40px;
-}
-.fotoorgmenu:hover{
-    height:300px;
-    transition: height 2s
+font-size: 25px;
+color: #b0f7cc;
+font-weight: bold;
+left:100px;
 }
 
-.fotobotellitamenu{
-    height:200px;
+.tituloorganizadoresindex{
+    position: relative;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:50px;
 }
 
-.fotobotellitamenu:hover{
-    height:300px;
-    transition:height 2s;
+.titulobotellaindex{
+    position: relative;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:80px;
 }
 
 
 
-
-
-
-                                              /*Menu*/
+                                              /*Menu +  bootstrap*/
 
 .menu{
      font-family:'Amatic SC', cursive;
@@ -146,7 +97,7 @@ height: 200px;
 
 .menu{
     display: grid;
-    grid-template-columns: 200px 200px 150px 150px 150px 200px;
+    grid-template-columns: 200px 300px 200px 200px 200px 200px;
 }
 .menu  a{
     text-decoration-line: none;
@@ -159,6 +110,12 @@ height: 200px;
     color: #ffffff; 
 }
 
+.vasos:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+
+
 
 .botellas{ 
    
@@ -167,17 +124,32 @@ height: 200px;
     color: #ffffff;
 }
 
+.botellas:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+
 .organizadores{
+    display:flex;
     text-decoration-line: none;
-    font-size: 35px;
-    display:inline;  
+    font-size: 35px;  
     color: #ffffff;  
+}
+
+.organizadores:hover{
+    font-size: 45px ;
+    transition: font size 2s;
 }
 
 .mates{ 
     font-size: 35px;
     display: inline;
     color: #ffffff;   
+}
+
+.mates:hover{
+    font-size: 45px ;
+    transition: font size 2s;
 }
 
 .bowls{
@@ -187,13 +159,21 @@ height: 200px;
     
 }
 
+
+.bowls:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
 .contacto{
     font-size: 35px;
     display:inline; 
     color: #ffffff;;   
 }
 
-
+.contacto:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
 /*Subtítulos dentro del menu - los que no están en el index*/
 .vaso1{   
    
@@ -431,13 +411,17 @@ top:30px;
 /*footer*/
 
 .seguinos{
-    padding-left: 560px;
+    position: relative;
+    padding-left: 600px;
+    left:50px;
      padding-top: 250px;
     
 }
 
 .logoInstagram{
-    padding-left: 30px;
+    position: relative;
+    padding-left: 50px;
+    right:25px;
 }
 
 
